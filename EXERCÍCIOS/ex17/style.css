@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+*
+{
+    height: auto;
+}
+
+a{
+    color: orange;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: dark;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+a:active{
+    color: rgb(255, 255, 255);
+}
+
+a::before{
+    content: '⚔';
+    color: rgb(255, 0, 0);
+    font-weight: normal;
+}
+
+a::after{
+    content: '⚔';
+    color: rgb(255, 0, 0);
+    font-weight: normal;
+}
+
+.mesa{
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+}
+
+.mesa::after{
+    background-color: rgb(31, 31, 31);
+    border-radius: 10px;
+    color: white;
+}
+
+.mesa::before{
+    background-color: rgb(24, 24, 24);
+    border-radius: 10px;
+    color: white;
+}
+

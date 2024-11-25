@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    height: auto;
+}
+
+p {
+    font-size: 1em;
+    font-weight: bolder;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+h1{
+    font: italic bolder 3em 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font: italic bolder 2em 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+
