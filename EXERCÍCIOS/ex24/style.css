@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    width: auto;
+    height: auto;
+}
+
+div.quadrado{
+    height: 200px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: rgb(151, 151, 151);
+    border: 1px solid black;
+    background-image: url(wallpaper003.jpg);
+}
+
+div{
+    color: rgb(195, 0, 255);
+}
+
+div#img1{
+    background-position: left top;
+}
+
+div#img2{
+    background-position: left center;
+}
+
+div#img3{
+    background-position: right bottom;
+}
+
+div#img4{
+    background-position: center center;
+}
+
