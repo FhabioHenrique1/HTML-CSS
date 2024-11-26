@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+*{
+    height: auto;
+    width: auto;
+}
+
+body{
+    background-image: url(wallpaper004.jpg);
+    background-position: top;
+    height: 97vh;
+    background-repeat: no-repeat;
+}
+
