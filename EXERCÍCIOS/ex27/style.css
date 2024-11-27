@@ -6,12 +6,7 @@
 }
 
 body{
-    background-image: url(wallpaper002.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    height: 100vh;
-    background-color: black;
-    background-size: cover;
+    background: black url(wallpaper002.jpg) center/cover no-repeat fixed;
 }
 
 main{
@@ -37,3 +32,4 @@ main p{
     line-height: 1.5em;
     text-align: justify;
 }
+
