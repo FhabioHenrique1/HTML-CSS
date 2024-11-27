@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    width: auto;
+    height: auto;
+}
+
+body{
+    background-image: url(wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    background-color: black;
+    background-size: cover;
+}
+
+main{
+    background-color: rgb(128, 128, 128);
+    border-radius: 10px;
+    margin: auto;
+    border: 2px solid black;
+    padding: 10px;
+    max-width: 800px;
+    min-width: 320px;
+}
+
+main h1{
+    color: white;
+    text-align: center;
+    font-size: 2.5em;
+}
+
+main p{
+    color: white;
+    text-indent: 5px;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    text-align: justify;
+}
