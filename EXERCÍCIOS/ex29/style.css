@@ -9,6 +9,13 @@
     padding: 0px;
 }
 
+:root{
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: "Sour Gummy", serif;
+    --font3: "Passion One", serif;
+
+}
+
 html, body{
     background-color: dark gray;
     min-height: 100%;
@@ -23,10 +30,12 @@ header{
 header > h1{
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: "Passion One", serif;
 }
 
 header > p{
     padding-bottom: 50px;
+    font-family: "Passion One", serif;
 }
 
 a{
@@ -44,6 +53,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: "Sour Gummy", serif;
 }
 
 section.imagem > p {
@@ -66,4 +76,6 @@ footer{
     color: white;
     padding: 7px;
     text-align: center;
+    font-family: var(--font2);
+    font-size: 1.3em;
 }
