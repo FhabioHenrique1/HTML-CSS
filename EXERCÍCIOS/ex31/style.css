@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font1: Verdana, Arial, sans-serif;
+    --font2:  "Sour Gummy", serif;
+    --font3: "Passion One", serif;
+}
+
+body{
+    background-color: gray;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 5em;
+    background-color: black;
+    padding: 10px;
+}
+
+table{
+    border: 2px solid black;
+    width: 300px;
+    font-size: 2em;
+    font-family: var(--font3);
+    margin: auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+tr{
+    background-color: rgba(0, 132, 255, 0.397);
+    border-radius: 2px;
+    text-decoration: none;
+    border
+}
+
+tr:hover{
+    text-decoration: underline;
+    color: white;
+}
