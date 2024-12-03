@@ -22,20 +22,19 @@ h1{
 
 table{
     border-collapse: collapse;
-    margin: auto;
-    border: 10px solid rgb(0, 0, 0);
+    border: 3px solid rgb(0, 0, 0);
     min-width: 420px;
-}
-
-tr.linha{
-    background-color: gray;
-}
-
-td.dado{
-    background-color: brown;
+    height: 420px;
+    margin: auto;
 }
 
 td{
     border: 1px solid black;
     padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.numero{
+    text-align: right;
 }
