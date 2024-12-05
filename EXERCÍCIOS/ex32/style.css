@@ -1,5 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Parkinsans:wght@300..800&family=Passion+One:wght@400;700;900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --font1: Arial, Verdana, Geneva sans-serif;
+    --font2: "Sour Gummy", serif;
+    --font3: "Passion One", serif;
+    --font4: "Parkinsans", serif;
+}
+
 *{
     width: auto;
     height: auto;
@@ -12,9 +21,19 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    text-align: center;
+    font-family: var(--font2);
+    font-size: 3em;
+    background-color: rgb(124, 69, 67);
+    padding: 20px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.39);
+}
+
 table{
-    width: 500px;
+    width: 430px;
     border-collapse: collapse;
+    margin: 10px auto;
 }
 
 thead, tfoot{
@@ -24,6 +43,7 @@ thead, tfoot{
 
 td{
     border: 1px solid black;
+    font-family: var(--font4);
 }
 
 .linha:hover{
@@ -38,4 +58,17 @@ td, th{
 
 .posição{
     text-align: center;
+}
+
+strong{
+    color: rgba(0, 0, 0, 0.884);
+    text-decoration: none;
+}
+
+strong:hover{
+    text-decoration: underline;
+}
+
+td.num{
+    text-align: right;
 }
