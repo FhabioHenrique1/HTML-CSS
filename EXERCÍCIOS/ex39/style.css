@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --font1:var(--font1)Arial, Verdana sans-serif;
+}
+
+body{
+    background-color: brown;
+    font-family: var(--font1);
+}
+
+header{
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3.5em;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+main{
+    width: 600px;
+    margin: 20px auto;
+}
