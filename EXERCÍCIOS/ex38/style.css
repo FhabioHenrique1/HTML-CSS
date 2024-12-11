@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+*{
+    width: auto;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --font1: Arial, Verdana sans-serif;
+}
+
+body{
+    background-color: rgb(224, 224, 224);
+}
+
+h1{
+    font-family: var(--font1);
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+p{
+    text-align: center;
+}
+
+table{
+    margin: 15px auto;
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: gray;
+}
+
+div#container{
+    overflow-x: auto;
+}
