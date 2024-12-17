@@ -10,3 +10,6 @@ Estou aprendendo a criar sites, agora vou gerenciar meus repositórios!
 
 <a href='https://github.com/FhabioHenrique1/HTML-CSS/blob/main/EXERCÍCIOS/ex32/index.html'> Executar o exercício 32!<a>
 
+<a href='https://github.com/FhabioHenrique1/HTML-CSS/blob/main/EXERCÍCIOS/ex41/index.html'> Executar o exercício 41!<a>
+
+
