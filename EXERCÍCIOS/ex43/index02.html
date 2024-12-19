@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+
+    <form action="cadastro.js" method="post" autocomplete="on">
+
+     <fieldset>
+        <legend>Dados pessoais</legend>
+         <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="iname" minlength="3" maxlength="18" required>
+             </p>
+         
+             <p>
+            <label for="itel">Número do celular</label>
+            <input type="tel" id="numero" id="inum" maxlength="15" autocomplete="tel" placeholder="(xx)xxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+             </p>
+         
+             <p>
+            <label for="eemail">E-mail</label>
+            <input type="email" name="email" id="eemail" autocomplete="email" required>
+             </p>
+         
+             <p>
+     </fieldset>
+     
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+    <!-- Estudar mais sobre o assunto RegEx -->
+     <!-- Estudar mais para frente sobre segurança https -->
+</form>
+</body>
+</html>
