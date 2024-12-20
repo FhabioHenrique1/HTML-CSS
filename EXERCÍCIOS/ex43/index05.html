@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formluário</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+
+    <fieldset>
+        <legend>Select, Datalist e Textarea</legend>
+
+        <p>
+        Estado: <select name="estado" id="iestado"> <label for="iestado"> </label>
+        <option value="" selected>--- Escolha ---</option>
+        <optgroup label="Estados">
+            <option value="AM">Amazonas</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+        </optgroup>
+        </select>
+        </p>
+
+        <p>
+            <label for="profissão">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+                <option>Administrador</option>
+                <option>Contabilista</option>
+                <option>Polícia</option>
+                <option>Médico</option>
+            </datalist>
+        </p>
+
+        <p>
+            <textarea name="texto" id="itexto" maxlength="299" placeholder="Comentário"></textarea>
+        </p>
+    </fieldset>
+
+    <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </p>
+
+</form>
+</body>
+</html>
