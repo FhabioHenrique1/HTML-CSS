@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+</head>
+<body>
+    <h1>Número</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <fieldset>
+            <legend>-------</legend>
+
+            <p>
+              *<label for="inum"></label> <input type="range" name="ranger" id="inum" max="10" min="0" value="5" oninput="ival.innerHTML = Number(inum.value)" required>
+              <output id="ival">0</output>
+            </p>
+        </fieldset>
+</form>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <fieldset>
+
+            <legend>Números</legend>
+
+            <p>
+              1: <input type="number" name="numero" id="inumber" min="0" max="50" oninput="isoma.innerHTML = Number(inumber.value) + Number(inumber2.value)" required>   <label for="inumber"></label>
+            </p>
+
+            <p>
+              2:  <input type="number" name="numero" id="inumber2" min="0" max="50" oninput="isoma.innerHTML = Number(inumber.value) + Number(inumber2.value)" required> <label for="inumber"></label>
+            </p>
+
+            <p>
+                Soma:  <label for="isoma"></label> <output id="isoma">0</output>
+              </p>
+        </fieldset>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
